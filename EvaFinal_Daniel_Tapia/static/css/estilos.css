@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+
+.botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 200px; }
+
+.boton {
+    width: 180px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 0;
+    color: white;
+    box-sizing: border-box; }
+
+.boton-lila { background-color: mediumorchid; }
+
+.boton-verde { background-color: limegreen; }
+
+.boton:hover { opacity: 0.8; }
+
+.formulario {
+    width: 400px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
+
+.formulario h1 {
+    text-align: center;
+    color: dimgrey; }
+
+.formulario label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: center; }
+
+.formulario input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    border-radius: 5px; }
+
+.formulario button {
+    display: block;
+    width: 200px;
+    margin: 30px auto;
+    padding: 12px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold; }
+
+.formulario button:hover {
+    background-color: dodgerblue; }
+
+.ejercicio-pinturas {
+    width: 550px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box; }
+
+.ejercicio-pinturas h1 {
+    text-align: center;
+    font-size: 30px;
+    color: gray;
+    margin-bottom: 20px; }
+
+.ejercicio-pinturas form {
+    display: flex;
+    flex-direction: column;}
+
+.ejercicio-pinturas label {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: darkgray;
+    font-size: 16px;
+    font-weight: normal; }
+
+.ejercicio-pinturas input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px; }
+
+.ejercicio-pinturas form button {
+    align-self: center;
+    width: 200px;
+    margin: 30px auto;
+    padding: 12px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer; }
+
+.ejercicio-pinturas form button:hover {
+    background-color: dodgerblue; }
+
+.ejercicio-pinturas .resultado {
+    margin-top: 20px;
+    padding: 0;
+    background-color: white;
+    border-radius: 0;
+    box-shadow: none; }
+
+.ejercicio-pinturas .resultado p {
+    font-size: 16px;
+    color: black;
+    text-align: left;
+    margin: 15px 0; }
+
+.resultado {
+    margin-top: 25px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 0;
+    box-shadow: none; }
+
+.resultado h2 { text-align: center; }
+
+.resultado h3 {
+    color: black;
+    text-align: center; }
+
+.volver {
+    display: block;
+    width: 100px;
+    margin: 20px auto;
+    padding: 12px;
+    background-color: #FF0000;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    opacity: 1;
+    visibility: visible; }
+
+.volver:hover {
+    background-color: #FF0000;
+    color: white;
+    opacity: 1;
+    visibility: visible;
+    text-decoration: none; }
